@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)system.text.encodings.web\7.0.0\buildTransitive\net461\System.Text.Encodings.Web.targets" Condition="Exists('$(NuGetPackageRoot)system.text.encodings.web\7.0.0\buildTransitive\net461\System.Text.Encodings.Web.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.bcl.asyncinterfaces\7.0.0\buildTransitive\net461\Microsoft.Bcl.AsyncInterfaces.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.bcl.asyncinterfaces\7.0.0\buildTransitive\net461\Microsoft.Bcl.AsyncInterfaces.targets')" />
+    <Import Project="$(NuGetPackageRoot)system.text.json\7.0.1\buildTransitive\net461\System.Text.Json.targets" Condition="Exists('$(NuGetPackageRoot)system.text.json\7.0.1\buildTransitive\net461\System.Text.Json.targets')" />
+    <Import Project="$(NuGetPackageRoot)system.security.permissions\7.0.0\buildTransitive\net461\System.Security.Permissions.targets" Condition="Exists('$(NuGetPackageRoot)system.security.permissions\7.0.0\buildTransitive\net461\System.Security.Permissions.targets')" />
+    <Import Project="$(NuGetPackageRoot)system.runtime.windowsruntime\4.6.0\buildTransitive\net461\System.Runtime.WindowsRuntime.targets" Condition="Exists('$(NuGetPackageRoot)system.runtime.windowsruntime\4.6.0\buildTransitive\net461\System.Runtime.WindowsRuntime.targets')" />
+    <Import Project="$(NuGetPackageRoot)system.runtime.windowsruntime.ui.xaml\4.6.0\build\net461\System.Runtime.WindowsRuntime.UI.Xaml.targets" Condition="Exists('$(NuGetPackageRoot)system.runtime.windowsruntime.ui.xaml\4.6.0\build\net461\System.Runtime.WindowsRuntime.UI.Xaml.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.windows.sdk.contracts\10.0.22621.755\build\Microsoft.Windows.SDK.Contracts.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.windows.sdk.contracts\10.0.22621.755\build\Microsoft.Windows.SDK.Contracts.targets')" />
+  </ImportGroup>
+</Project>
