@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32407.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoansApp", "LoansApp\LoansApp.csproj", "{D38FD703-AF78-4988-B415-CCECF1FBED8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{FC32A9A0-5894-47DE-857E-EC84CD7EDF59}"
+	ProjectSection(SolutionItems) = preProject
+		LoansApp\Entities\product.cs = LoansApp\Entities\product.cs
+		LoansApp\Entities\ProductsNumbers.json = LoansApp\Entities\ProductsNumbers.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D38FD703-AF78-4988-B415-CCECF1FBED8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D38FD703-AF78-4988-B415-CCECF1FBED8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D38FD703-AF78-4988-B415-CCECF1FBED8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D38FD703-AF78-4988-B415-CCECF1FBED8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83AFF233-B5E0-4EF6-9E8B-3E54FFD5B5A3}
+	EndGlobalSection
+EndGlobal

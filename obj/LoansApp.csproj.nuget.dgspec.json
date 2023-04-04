@@ -1,0 +1,101 @@
+{
+  "format": 1,
+  "restore": {
+    "O:\\Tmicha\\Dor\\LoansApp\\LoansApp\\LoansApp\\LoansApp.csproj": {}
+  },
+  "projects": {
+    "O:\\Tmicha\\Dor\\LoansApp\\LoansApp\\LoansApp\\LoansApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "O:\\Tmicha\\Dor\\LoansApp\\LoansApp\\LoansApp\\LoansApp.csproj",
+        "projectName": "LoansApp",
+        "projectPath": "O:\\Tmicha\\Dor\\LoansApp\\LoansApp\\LoansApp\\LoansApp.csproj",
+        "packagesPath": "C:\\Users\\isagivn\\.nuget\\packages\\",
+        "outputPath": "O:\\Tmicha\\Dor\\LoansApp\\LoansApp\\LoansApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\isagivn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[30.0.1, )"
+            },
+            "Microsoft.Bcl.AsyncInterfaces": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.Windows.SDK.Contracts": {
+              "target": "Package",
+              "version": "[10.0.22621.755, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "System.DirectoryServices": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.DirectoryServices.AccountManagement": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Reflection": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Security.Principal.Windows": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "System.Threading.Tasks.Extensions": {
+              "target": "Package",
+              "version": "[4.5.4, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
