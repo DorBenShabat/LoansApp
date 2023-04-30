@@ -82,7 +82,7 @@ namespace LoansApp
             try
             {
                 var temp = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
-                temp = temp.Replace(@"OZAR\", "");
+                temp = temp.Replace(@"\", "");
                 var user = ActiveDirectoryRepo.CheckIdentityExistByUserName(temp);
                 if (user != null)
                 {
