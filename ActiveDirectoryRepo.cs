@@ -19,7 +19,7 @@ namespace LoansApp
         public UserPrincipal CheckIdentityExistById(string id)
         { 
 
-            var identity = UserPrincipal.FindByIdentity(principal, IdentityType.UserPrincipalName, id + "@gov.il");
+            var identity = UserPrincipal.FindByIdentity(principal, IdentityType.UserPrincipalName, id + "");
             if (identity != null) return identity;
             return null; 
 
